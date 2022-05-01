@@ -1,0 +1,54 @@
+.grille{
+    display: flex;/* les éléments les uns à côté des autres */
+    flex-wrap:wrap;/* si les élèments n'ont plus de place passent en dessous*/
+    width:500px;
+    height:500px;
+    margin: 0 auto;
+    background-color: yellow;
+    background-image: url('assets/img/space-invaders/background-black.png');/* fond étoiles */
+    animation: background-defilement 5s linear infinite;
+    /*background-repeat: no-repeat;*/
+}
+
+@keyframes background-defilement{
+    from{
+        background-position-y: 0px;
+    }
+    to{
+        background-position-y: 256px;/* taille de l'image*/
+    }
+}
+
+h3{
+    text-align:center;
+    margin: 1em 0;
+}
+
+.grille div{
+    width:25px;
+    height:25px;
+}
+
+.tireur{
+    background: url(assets/img/space-invaders/vaisseau.png);
+    transform: rotate(180deg);
+    background-position: center;
+    background-size: contain;
+}
+
+.alien{
+    background: url(assets/img/space-invaders/ennemies.png);
+    transform: rotate(180deg);
+    background-position: center;
+    background-size: contain;
+}
+
+.boom{
+    background-color:red;
+
+}
+
+.laser{
+    background-color: pink;
+}
+

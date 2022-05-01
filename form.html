@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App jeux NSI 1ère</title>
+    <meta name="description" content="Projet NSI Exemple Formulaire JS">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Prompt:wght@300;500;700&display=swap" rel="stylesheet">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <a href="index.html">Arcadia</a>
+        <a href="animations.html">Animations</a>
+        <a href="jeux.html">Jeux</a>
+        <a href="ressources.html">Ressources</a>
+        <a href="form.html">Formulaire interactif</a>
+    </nav>
+    
+    <main class="formulaire">
+        <h1>Proposez-nous un jeu</h1>
+        <form id="formulaire">  
+            <div class="form-item">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" placeholder="Votre prénom">
+                <div class="error invisible">Ce champ doit contenir entre deux et dix caractères.</div>
+            </div>
+            <div class="form-item">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" placeholder="Votre nom">
+                <div class="error invisible">Ce champ doit contenir entre trois et quinze caractères.</div>
+            </div>
+            <div class="form-item">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Votre e-mail">
+            </div>
+            <div class="form-item">
+                <label for="message">Votre message</label>
+                <textarea id="message" placeholder="Votre message"></textarea>
+                <div class="error invisible">Ce champ doit contenir entre dix et cent caractères.</div>
+            </div>
+            <button id="btn" type="submit">Envoyer</button> 
+        </form>
+    </main>
+
+    <footer>
+        <p class="info">Lycée Saint-Just Lyon 5</p>
+    </footer>
+    </div>
+</body>
+</html>
