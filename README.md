@@ -3,10 +3,11 @@
  */
 
 /* Utilisation de GIT pour versionner le projet en équipe
-Installation de GIT
-* initialisation du nom d'utilisateur (directement dans le projet)
+https://github.com/elisearrami/arcadia
 
-* Projet Git git init
+Installation de GIT
+Initialisation du nom d'utilisateur (directement dans le projet)
+Projet Git git init
 git status //Je vérifie
 git add . //J'ajoute les fichiers dans la zone de transit
 git commit -m "Pourquoi j'ai commité" à chaque grosse modification //J'indexe les contenus
@@ -15,6 +16,7 @@ git log //Je vérifie les commits
 
 /* Déploiement
 Installation sur le playground replit.it
+https://replit.com/@elisearm/Arcadia#index.html
 
 
 /* HTML - CSS
