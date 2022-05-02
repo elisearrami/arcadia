@@ -1,0 +1,11 @@
+# Fichiers d'OS
+Thumbs.db
+ehthumbs.db
+.DS_Store
+.Trashes
+# Ignorer tous les logs
+*.log
+# Ignorer les packages node
+/node_modules/
+# Ignorer les variables d'environnement
+.env
